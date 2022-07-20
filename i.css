@@ -104,8 +104,6 @@ body {
 .learn-more {
     justify-content: space-between;
     display: flex;
-    padding: 10px;
-
     width: 210px;
 }
 
@@ -123,6 +121,7 @@ body {
 
 .rec-right img {
     height: 336px;
+    transition: width 2s, height 4s;
 }
 
 .rec-left img {
@@ -160,11 +159,26 @@ body {
     font-size: 15px;
 }
 
-.rec-l-text button {
+.buy-more button {
+    font-size: 12px ;
+    height: 30px;
+    width: 80px;
     color: #f3f3f0;
     background: black;
 }
 
+.buy-more{
+    justify-content: space-between  ;
+    display: flex;
+    width: 160px;
+
+}
+.buy-more p{
+margin-top: 5px;
+/* display: flex; */
+font-size: 14px;
+    border-bottom: 1px solid #000000;
+}
 .phones {
     height: 600px;
     background: white;
@@ -329,13 +343,6 @@ table.table-footer-cel td a {
     color: #7d7d7d;
     text-decoration: none;
 
-
-}
-
-.social-main {
-    /* width: 23%;
-    float: right;
-    padding: 100px; */
 
 }
 
